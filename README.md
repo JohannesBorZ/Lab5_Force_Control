@@ -1,6 +1,6 @@
 ## 4.2. Simulate P Control: Resultados y Análisis
 
-Se realiza el siguiente diaframa en Simulink:
+Se realiza el siguiente diagrama en Simulink:
 ![Diagrama Simulink](Diagrama_4_2.jpg)
 
 Obteniendo estos resultados:
@@ -16,6 +16,12 @@ Justificación: Este fenómeno se debe a la nulidad de los parámetros dinámico
 Específicamente, la rigidez del entorno es nula ($K{2,2} = 0$), la fuerza de referencia solicitada es nula ($f{d,y} = 0$) y la ganancia proporcional de fuerza es nula ($C{F{2,2}} = 0$). En consecuencia, el lazo exterior de fuerza se desacopla por completo en la componente Y. La dinámica del sistema en este eje queda gobernada de manera exclusiva por el lazo interno de impedancia ($\mathbf{M}_d$, $\mathbf{K}_D$, $\mathbf{K}_P$), el cual regula el sistema para mantener la posición inicial sin generar interacción de fuerzas.
 
 ## 4.3. Simulate PI Control: Resultados y Análisis
+
+Se modifica el diagrama anterior de Simulink añadiendo la parte integral del controlador, el diagrama con PI es:
+![Diagrama Simulink](Diagrama_4_3.jpg)
+
+Obteniendo estos resultados:
+![Resultado Simulación](Resultado_4_3.jpg)
 
 #### 1. Does this produce any improvement in the controller? Why?
 Sí, se produce una mejora fundamental en el sistema: la eliminación completa del error en estado estacionario.
