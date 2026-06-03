@@ -2,7 +2,6 @@
 
 Se realiza el siguiente diagrama en Simulink:
 ![Diagrama Simulink](Diagrama_4_2.jpg)
-
 Obteniendo estos resultados:
 ![Resultado Simulación](Resultado_4_2.jpg)
 
