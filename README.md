@@ -35,7 +35,7 @@ Ajuste de parámetros y estabilidad: Al incorporar la acción PI, el sistema din
 Modificación a lazo interno de velocidad: Se puede mejorar el planteamiento simplificando el diseño de control si se abre el lazo de realimentación de posición, estableciendo un control de fuerza con un lazo interno de velocidad. Esta configuración simplifica el diseño del control al reducir la dinámica resultante a un sistema de segundo orden. Bajo este esquema, la fuerza de interacción con el entorno coincide con el valor deseado en estado estacionario, incluso operando con un controlador de fuerza puramente proporcional.
 
 Se incluye la  mejora como se observa en el diagrama a continuación:
-![Diagrama Simulink](Diagrama_4_3_Mejorado.jpg)
+![Diagrama Simulink](Diagrama_4_3_Mejorado2.jpg)
 
 Obteniendo estos resultados:
 ![Resultado Simulación](Resultado_4_3_Mejorado.jpg)
