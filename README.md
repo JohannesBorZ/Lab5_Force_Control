@@ -4,7 +4,7 @@ Se realiza el siguiente diaframa en Simulink:
 ![Diagrama Simulink](Diagrama_4_2.jpg)
 
 Obteniendo estos resultados:
-![Resultado Simulación](Resultados_4_2.jpg)
+![Resultado Simulación](Resultado_4_2.jpg)
 
 #### 1. Is the proposed controller correct? Why?
 El esquema de control propuesto presenta una arquitectura conceptualmente válida para el control de impedancia y fuerza; sin embargo, resulta incorrecto e insuficiente para cumplir con el objetivo de diseño establecido.
