@@ -34,3 +34,11 @@ Sí, el sistema es susceptible de mejora tanto a nivel de sintonización de par�
 Ajuste de parámetros y estabilidad: Al incorporar la acción PI, el sistema dinámico pasa a ser de tercer orden, lo que hace necesario elegir adecuadamente las matrices $K_D$, $K_P$, $K_F$ e $K_I$ con respecto a las características del entorno. Dado que los valores de rigidez del entorno son típicamente altos, el peso de las acciones proporcional e integral debe mantenerse contenido. Una elección precisa de $K_F$ e $K_I$ influye positivamente en los márgenes de estabilidad y en el ancho de banda del sistema bajo control de fuerza.
 
 Modificación a lazo interno de velocidad: Se puede mejorar el planteamiento simplificando el diseño de control si se abre el lazo de realimentación de posición, estableciendo un control de fuerza con un lazo interno de velocidad. Esta configuración simplifica el diseño del control al reducir la dinámica resultante a un sistema de segundo orden. Bajo este esquema, la fuerza de interacción con el entorno coincide con el valor deseado en estado estacionario, incluso operando con un controlador de fuerza puramente proporcional.
+
+Se incluye la  mejora como se observa en el diagrama a continuación:
+![Diagrama Simulink](Diagrama_4_3_Mejorado.jpg)
+
+Obteniendo estos resultados:
+![Resultado Simulación](Resultado_4_3_Mejorado.jpg)
+
+
