@@ -29,7 +29,7 @@ Sí, produce una mejora significativa en el comportamiento del sistema en régim
 
 Justificación: Si la matriz $C_F$ posee una acción de control puramente proporcional, la fuerza real $f_e$ no puede alcanzar la fuerza deseada $f_d$, y la variable $x_r$ influye en la fuerza de interacción en estado estacionario. Si $C_F$ cuenta además con una acción de control integral en los componentes de fuerza, resulta posible lograr que $f_d = f_e$ en estado estacionario. Simultáneamente, esta modificación permite rechazar el efecto de $x_r$ sobre $f_e$. Por consiguiente, una elección conveniente para $C_F$ es una acción proporcional-integral (PI).
 
-#### 2. Se podría mejorar aun mas? Cómo?
+#### 2. Se podría mejorar aún más? Cómo?
 Sí, el sistema es susceptible de mejora tanto a nivel de sintonización de parámetros como mediante modificaciones en la arquitectura del control.
 
 Ajuste de parámetros y estabilidad: Al incorporar la acción PI, el sistema dinámico pasa a ser de tercer orden, lo que hace necesario elegir adecuadamente las matrices $K_D$, $K_P$, $K_F$ e $K_I$ con respecto a las características del entorno. Dado que los valores de rigidez del entorno son típicamente altos, el peso de las acciones proporcional e integral debe mantenerse contenido. Una elección precisa de $K_F$ e $K_I$ influye positivamente en los márgenes de estabilidad y en el ancho de banda del sistema bajo control de fuerza.
