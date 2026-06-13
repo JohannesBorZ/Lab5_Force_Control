@@ -1,3 +1,5 @@
+# LAB 5: Force Control
+
 ## 4.2. Simulate P Control: Resultados y Análisis
 
 Se realiza el siguiente diagrama en Simulink:
